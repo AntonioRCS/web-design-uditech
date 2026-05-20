@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+
+    <title>Aprenda HTML</title>
+</head>
+<body>
+    <header>
+        <div id="tituloPagina">
+            <a href="">
+                <span>💡</span>
+                Aprenda HTML
+            </a>
+        </div>
+        <div id="navbar">
+            <ul>
+                <li>Conceitos</li>
+                <li>Contador</li>
+                <li>Formulário</li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="primeiraSecao"> <!--Primeira Secao do Site-->
+        <h1>Estude código na prática🚀</h1>
+        <p>Este site foi criado para estudar Web Design.</p>
+        <div>
+            <a class="botao botao-primario" href="">Começar a Estudar</a>
+            <a class="botao botao-secundario" href="">Formulário</a>
+        </div>
+    </section>
+
+    <section id="segundaSecao"> <!--Segunda Secao do Site-->
+        <div id="cardTitulo">
+            <h2 class="titulo">Conceitos Fundamentais</h2>
+            <p class="subtitulo">Tres pilares da WEB</p>
+        </div>
+        <div id="cards">
+           <div class="card">
+                <div class="card-icone">📑</div>
+                <h2 class="card-titulo">HTML-Estrutura</h2>
+                <p>Define o conteúdo e a hierarquia da página: cabeçalhos, parágrafos, links, imagens e formulários. É o esqueleto do site.</p>
+           </div>
+           <div class="card">
+                <div class="card-icone">🖌️</div>
+                <h2 class="card-titulo">CSS-Estilo</h2>
+                <p>Controla cores, fontes, espaçamentos, animações e layout. Neste site usamos variáveis CSS, Flexbox e Grid.</p>
+           </div>
+           <div class="card">
+                <div class="card-icone">🖥️</div>
+                <h2 class="card-titulo">Javascript-Comportamento</h2>
+                <p>Adiciona interatividade: responde a cliques, valida formulários, atualiza a página sem carregar.</p>
+           </div>
+           <div class="card">
+                <div class="card-icone">📐</div>
+                <h2 class="card-titulo">CSS-Grid e Flexbox</h2>
+                <p>Ferramentas modernas de layout. Este grid de cartões usa auto-fit para se adaptar a qualquer tela.</p>
+           </div>
+        </div>
+    </section>
+
+    <section id="terceiraSecao">
+        <div> <!--Titulo + Texto-->
+            <h2 class="titulo"> Contador Interativo </h2>
+            <p class="subtitulo">Exemplo Javascript DOM</p>
+        </div>
+        
+        <div> <!--Numero + Botoes-->
+            <span id="contador">0</span>
+            <div id="operadores">
+                <button id="menos" class="operador">-</button>
+                <button id="res" class="operador">res</button>
+                <button id="mais" class="operador">+</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h2></h2>
+            <p></p>
+        </div>
+        <div>
+            <div class="campo">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome">
+            </div>
+            <div class="campo">
+                <label for="email" type="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="selecao">
+                <label for="assunto">Assunto</label>
+                <select id="assunto">
+                    <option value="">Duvidas</option>
+                    <option value="">Sujestões</option>
+                </select>
+            </div>
+            <div class="mensagem">
+                <label for="msg">Mensagem</label>
+                <textarea id="msg"></textarea>
+            </div>
+            <button>Enviar Mensagem</button>
+        </div>      
+    </section>
+
+    <geolocate></geolocate>
+    
+
+
+
+</body>
+</html>
