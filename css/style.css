@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap'); */
 
 :root {
     --cor-primaria: #2563eb;
@@ -50,6 +50,23 @@ button {
 button:hover {
     cursor: pointer;
     opacity: 50%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;;
+}
+
+select {
+    width: auto;
 }
 
 .azul {
@@ -209,4 +226,45 @@ button:hover {
     border-color: gray;
     height: 40px;
     width: 40px;
+}
+
+#quartaSecao {
+    justify-self: center;
+    display: block;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+#formHeader {
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+#formularioPrincipal {
+    display: block;
+    background-color: var(--cor-fundo-card);
+    border: 1px solid gray;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#formularioPrincipal input {
+    min-width: 400px;
+}
+
+.campo {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#msg {
+    resize: none;
+}
+
+#submitButton {
+    color: white;
+    background-color: var(--cor-primaria);
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
 }
