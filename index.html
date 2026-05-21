@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
 
     <title>Aprenda HTML</title>
 </head>
@@ -73,9 +72,9 @@
         <div> <!--Numero + Botoes-->
             <span id="contador">0</span>
             <div id="operadores">
-                <button id="menos" class="operador">-</button>
-                <button id="res" class="operador">res</button>
-                <button id="mais" class="operador">+</button>
+                <button id="menos" class="operador" onclick="subtrair()">-</button>
+                <button id="res" class="operador" onclick="zerar()">res</button>
+                <button id="mais" class="operador" onclick="adicionar()">+</button>
             </div>
         </div>
     </section>
@@ -110,4 +109,5 @@
     </section>
 
 </body>
+<script src="js/script.js"></script>
 </html>
